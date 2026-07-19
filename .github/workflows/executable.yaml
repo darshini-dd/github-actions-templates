@@ -11,7 +11,7 @@ on:
 
 jobs:
   print:
-    uses: darshini-dd/github-actions-templates/.github/workflows/print.yaml@develop
+    uses: darshini-dd/github-actions-templates/.github/workflows/print.yaml@feature/github-actions-migration
     with:
       environment: ${{ inputs.environment }}
-      branch_name: ${{ inputs.branch_name }}
+      branch_name: ${{ inputs.branch_name}}
